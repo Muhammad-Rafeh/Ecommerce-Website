@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin : 0;
+}
+.container {
+    overflow: hidden;
+}
+.pg-wrap {
+    display: grid;
+    overflow: hidden;
+    width: 100%;
+    margin-left :auto;
+    margin-right : auto;
+    grid-template-columns: 200px auto;
+    justify-content: start;
+}
+ 
+
+.sidebar p{
+    width: 200px;
+}
+.pl {
+    
+    display: grid;
+    overflow: hidden;
+   
+    margin-left: auto;
+    margin-right: auto;
+    grid-template-columns: auto;
+    justify-content: start;
+    align-items: center;
+}
+.pli-button {
+   
+    background-color: white;
+    border: none;
+    display: block;
+    min-width: 800px;
+    border: rgb(163, 163, 163);
+    border-width: 1px;
+    border-style: solid;
+}
+.pli-root-wrapper{
+    display: block;
+   overflow:hidden;
+   float:left;
+    
+    
+}
+.pli-root-wrapper1{
+    display: block;
+   overflow:hidden;
+   float:left;
+    
+}
+.pli-container {
+   
+    display: block;
+    overflow: hidden;
+    
+    
+}
+.pli-img-wrapper {
+    float: left;
+}
+
+
+.pli-img {
+    width : 300px ;
+    margin: 10px;
+}
+
+.pli-data-wrapper {
+    float : left;
+    padding: 10px;
+    padding-right: auto;
+}
+.pli-title-wrapper p{
+    font-size: 1rem;
+    font-weight: 600;
+    word-wrap: break-word;
+}
+.pli-price-wrapper p {
+    font-size: 25px;
+    font-weight: 600;
+}

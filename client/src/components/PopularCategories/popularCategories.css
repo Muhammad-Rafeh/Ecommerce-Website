@@ -1,0 +1,42 @@
+*{
+    float: 0;
+    margin : 0;
+}
+.container {
+    overflow: hidden;
+}
+.epc-wrapper {
+    display: block;
+    overflow: hidden;
+    width : 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.epc { 
+    float: left;
+}
+
+.pc-category-root-wrapper {
+    display: block;
+    overflow: hidden;
+
+    width : 100%;
+    margin-left: auto;
+    margin-right : auto;
+
+}
+
+.pc-category-wrapper {
+    float: left;
+    padding-left: 18px;
+    text-align: center;
+}
+
+.c-img {
+    height : 140px;
+}
+.c-p {
+    font-weight: 600;
+}
