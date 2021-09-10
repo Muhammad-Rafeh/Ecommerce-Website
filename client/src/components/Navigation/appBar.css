@@ -31,7 +31,7 @@
 }
 .search-bar-wrapper{
    
-    width:50%;
+    width:40%;
     padding-right: 0;
     margin-right: -11px;
   
@@ -102,4 +102,29 @@
 }
 .arrowDownIcon{
     width: 2em!important; 
+}
+
+@media screen and (max-width: 1000px) {
+    .search-bar-wrapper{
+   
+        width:35%;
+        padding-right: 0;
+        margin-right: -11px;
+      
+        /* m-right: 30px; */
+    }
+    
+}
+
+
+@media screen and (max-width: 910px) {
+    .search-bar-wrapper{
+   
+        width:30%;
+        padding-right: 0;
+        margin-right: -11px;
+      
+        /* m-right: 30px; */
+    }
+    
 }
